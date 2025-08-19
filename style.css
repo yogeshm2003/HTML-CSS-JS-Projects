@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.search {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+}
+.search input {
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.search input:focus-visible {
+  outline: 2px solid purple;
+}
+
+.primarybtn {
+  background-color: purple;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+.primarybtn:hover {
+  background-color: rgb(156, 14, 156);
+}
+.primarybtn:active {
+  background-color: rgb(122, 116, 122);
+}
+
+/* Profile Box */
+#profileContainer {
+  width: 100%;
+}
+.profile-box {
+  margin: auto;
+  padding: 4rem 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  width: 50%;
+  max-width: 78rem;
+}
+.profile-box:hover {
+  transform: rotate(-2deg);
+  transition: 0.1s ease-in;
+}
+.avatar {
+  height: 10rem;
+  width: 10rem;
+}
+.avatar img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+.top-section button {
+  align-self: center;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.left h1 {
+  font-size: 1rem;
+}
+.about {
+  margin: 2rem;
+}
+
+.status {
+  display: flex;
+  justify-content: space-evenly;
+}
